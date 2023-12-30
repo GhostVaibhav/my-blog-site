@@ -32,6 +32,13 @@ jobs:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.120.4
+      HUGO_PARAMS_FIREBASE_apiKey: ${{ secrets.APIKEY }}
+      HUGO_PARAMS_FIREBASE_appId: ${{ secrets.APPID }}
+      HUGO_PARAMS_FIREBASE_authDomain: ${{ secrets.AUTHDOMAIN }}
+      HUGO_PARAMS_FIREBASE_measurementId: ${{ secrets.MEASUREMENTID }}
+      HUGO_PARAMS_FIREBASE_messagingSenderId: ${{ secrets.MESSAGINGSENDERID }}
+      HUGO_PARAMS_FIREBASE_projectId: ${{ secrets.PROJECTID }}
+      HUGO_PARAMS_FIREBASE_storageBucket: ${{ secrets.STORAGEBUCKET }}
     steps:
       - name: Install Hugo CLI
         run: |

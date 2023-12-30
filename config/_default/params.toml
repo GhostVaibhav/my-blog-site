@@ -48,8 +48,8 @@ smartTOC = true
 
 [article]
   showDate = true
-  showViews = false
-  showLikes = false
+  showViews = true
+  showLikes = true
   showDateUpdated = true
   showAuthor = false
   showHero = true
@@ -58,8 +58,8 @@ smartTOC = true
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = true
   showDraftLabel = true
-  showEdit = false
-  # editURL = "https://github.com/username/repo/"
+  showEdit = true
+  editURL = "https://github.com/GhostVaibhav/my-blog-site/blob/main/content/"
   editAppendPath = true
   seriesOpened = false
   showHeadingAnchors = true
@@ -115,13 +115,13 @@ smartTOC = true
   cardViewScreenWidth = false
 
 [firebase]
-  # apiKey = "XXXXXX"
-  # authDomain = "XXXXXX"
-  # projectId = "XXXXXX"
-  # storageBucket = "XXXXXX"
-  # messagingSenderId = "XXXXXX"
-  # appId = "XXXXXX"
-  # measurementId = "XXXXXX"
+  apiKey = "XXXXXX"
+  authDomain = "XXXXXX"
+  projectId = "XXXXXX"
+  storageBucket = "XXXXXX"
+  messagingSenderId = "XXXXXX"
+  appId = "XXXXXX"
+  measurementId = "XXXXXX"
 
 [fathomAnalytics]
   # site = "ABC12345"
