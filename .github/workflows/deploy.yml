@@ -60,7 +60,8 @@ jobs:
               HUGO_PARAMS_FIREBASE_measurementId=${{ secrets.MEASUREMENTID }} \
               HUGO_PARAMS_FIREBASE_messagingSenderId=${{ secrets.MESSAGINGSENDERID }} \
               HUGO_PARAMS_FIREBASE_projectId=${{ secrets.PROJECTID }} \
-              HUGO_PARAMS_FIREBASE_storageBucket=${{ secrets.STORAGEBUCKET }} hugo \
+              HUGO_PARAMS_FIREBASE_storageBucket=${{ secrets.STORAGEBUCKET }} \
+              HUGO_CONFIG_googleAnalytics=${{ secrets.MEASUREMENTID }} hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
