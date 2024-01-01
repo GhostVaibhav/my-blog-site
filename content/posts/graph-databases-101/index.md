@@ -111,3 +111,4 @@ That’s it for this tutorial! I know I have skipped some parts of the basic cod
 
 Until then, see ya!
 
+{{< swatches "#FB6962" "#79DE79" "#99C3EC" >}}
