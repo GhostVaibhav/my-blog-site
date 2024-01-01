@@ -1,6 +1,6 @@
 ---
 title: "Upgrading an Express server to HTTPs on an EC2 instance"
-date: 2023-12-30
+date: 2024-01-01
 draft: false
 tags: ["Express", "API", "AWS", "Hands-On", "Intermediate"]
 ---
