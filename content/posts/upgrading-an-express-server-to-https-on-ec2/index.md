@@ -225,7 +225,7 @@ Until then, see ya!
 
 ## References
 
-* https://gist.github.com/bradtraversy/cd90d1ed3c462fe3bddd11bf8953a896
+* [https://gist.github.com/bradtraversy/cd90](https://gist.github.com/bradtraversy/cd90d1ed3c462fe3bddd11bf8953a896)
 
 ## Don't bother to check this
 
